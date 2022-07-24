@@ -1,0 +1,150 @@
+@media screen and (max-width: 1180px) {
+body {
+    overflow-x: hidden;
+}
+   
+    .container {
+        width: 900px;
+    }
+    .contacts div {
+        margin-right: 20px;
+    }
+    #logo-header {
+        width: 120px;
+        height: 40px;
+        float: left;
+        margin-top: 22px;
+    }
+
+.competence-item {
+    width: 28%;
+    height: 225px;
+    background: #f7f7eb;
+    float: left;
+    margin: 10px;
+    padding: 10px;
+}
+.logolem {
+    margin-left: 230px;
+    margin-top: 166px;
+}
+
+.news-item{
+    width: 280px;
+    height: 590px;
+}
+
+.news-img {
+width: 280px;
+}
+.cards-item { 
+    margin-right: 15px;
+}
+.subscribe input,
+.subscribe button {
+    width: 200px;
+
+}
+.footer-first-list {
+    width: 275px;
+}
+.footer-third-list {
+    margin-left: 20px;
+    margin-right: 25px;
+}
+
+.footer-contact {
+    width: 350px;
+    font-size: smaller;
+}
+
+.footer-first-list p {
+    font-size: smaller;
+    margin-right: 25px;
+}
+
+}
+
+
+@media screen and (max-width: 900px) {
+body {
+        overflow-x: hidden;
+    }
+
+    .container {
+        width: 100%;
+    }
+.contacts {
+        margin-top: 5px;
+    }
+.contacts div {
+        float: none;
+}
+
+
+.header-nav li {
+    margin-right: 20px;
+    margin-left: 25px;
+}
+
+.header-nav li:last-child {
+    margin-right: 30px;
+}
+.mission-text h3 {
+    text-align: center;
+}
+
+
+.mission-text p {
+        margin: 0 auto;
+        padding: 30px;
+}
+
+.mission-text button {
+    margin-left: 30px;
+}
+
+.two-mission::before {
+    content: url('../images/logolem900.svg');
+    position: absolute;
+    float: right;
+    right: -139px;
+    width: 272px;
+    height: 268px;
+    margin-top: 625px;
+}
+
+}
+
+
+
+
+@media screen and (max-width: 520px) {
+  
+    
+    #logo-header {
+        margin-left: auto;
+        margin-right: auto;
+        float: none;
+        padding-bottom: 10px;
+    }
+    .contacts {
+        margin-top: 5px;
+        float: none;
+    
+    }
+    .header-top {
+        height: 130px;
+        text-align: center;
+    }
+    .header-nav .nav-block {
+        display: none;
+    }
+    .header-nav .nav-open {
+        display: block;
+        float: right;
+        margin-top: 18px;
+        margin-right: 18px;
+        cursor: pointer;
+    }
+}
